@@ -1,5 +1,9 @@
+* {
+  outline: none;
+}
+
 .btn {
-  min-width: 180px;
+  width: 180px;
   border-radius: 15px;
   border: none;
   margin: 10px;
@@ -36,4 +40,32 @@
 .btn-cancel:hover {
   border-color: #616161;
   color: #616161;
+}
+
+.input-search-text {
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  padding: 7px;
+  margin: 0 0 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.input-search-text:hover {
+  border-color: #616161;
+}
+
+.input-search-text:focus {
+  border-color: #4db6ac;
+  color: #616161;
+}
+
+.input-search-text,
+.input-search-text::before,
+.input-search-text::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
