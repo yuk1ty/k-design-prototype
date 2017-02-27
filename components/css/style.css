@@ -71,7 +71,6 @@
 }
 
 .validation-warn {
-  background-color: #ffebee !important;
   border: 1px solid #e53935 !important;
   color: #e53935 !important;
 }
